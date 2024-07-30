@@ -20,6 +20,8 @@ export default {
         success: "rgba(45, 192, 113, 1)",
         alert: "rgba(231, 124, 64, 1)",
         danger: "rgba(231, 64, 64, 1)",
+        "gradient-1": "#295C7A",
+        "gradient-2": "#0072B5",
       },
       fontSize: {
         h1: "58px",
@@ -46,7 +48,6 @@ export default {
         "text-shadow": "0px 13px 19px rgba(0, 0, 0, 0.24)",
       },
       backgroundImage: {
-        // import from src assets
         cover: "url('../src/assets/cover.png')",
       },
     },

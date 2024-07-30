@@ -13,7 +13,7 @@ function BannerHeader() {
                 <button className="px-9 py-[10px] text-white rounded-full bg-secondary-2 text-btn-text font-open-sans font-bold hover:bg-secondary-2/90 transition-colors duration-800">
                     Get Quote Now
                 </button>
-                <button className="px-9 py-[10px] text-white rounded-full border border-secondary-2 text-secondary-2 text-btn-text font-open-sans font-bold hover:bg-secondary-2/10 transition-colors duration-800">
+                <button className="px-9 py-[10px] rounded-full border border-secondary-2 text-secondary-2 text-btn-text font-open-sans font-bold hover:bg-secondary-2/10 transition-colors duration-800">
                     Learn More
                 </button>
             </div>
