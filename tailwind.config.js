@@ -49,6 +49,7 @@ export default {
       },
       backgroundImage: {
         cover: "url('../src/assets/cover.png')",
+        contact: "url('../src/assets/contact-cover.png')",
       },
     },
   },

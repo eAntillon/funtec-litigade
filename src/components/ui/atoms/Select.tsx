@@ -3,7 +3,7 @@ import { cn } from "../../../utils/cn"
 
 interface SelectProps {
     placeholder: string,
-    title: string,
+    title?: string,
     clasName?: string,
     options: string[],
 }
@@ -14,9 +14,9 @@ function Select({
 }: SelectProps) {
     return (
         <div className="relative flex flex-col w-full gap-2 py-1">
-            <label className={cn({
+            {title && <label className={cn({
                 'text-h6 text-text font-open-sans font-bold': true,
-            })}>{title}*</label>
+            })}>{title}*</label>}
             <select defaultValue={placeholder} className={cn({
                 'border border-muted rounded-md px-5 py-3 bg-zinc-50 text-second-text placeholder:text-second-text placeholder:font-medium font-montserrat appearance-none': true,
             })}>
@@ -25,7 +25,7 @@ function Select({
                     <option value={option} key={option}>{option}</option>
                 ))}
             </select>
-                <Icon icon="mdi:chevron-down" className="absolute w-5 h-6 pointer-events-none right-3 bottom-4 text-second-text" />
+            <Icon icon="mdi:chevron-down" className="absolute w-5 h-6 pointer-events-none right-3 bottom-4 text-second-text" />
         </div>
     )
 }

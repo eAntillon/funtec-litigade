@@ -11,7 +11,7 @@ function ClientReviewCard({
     review,
 }: ClientReviewCardProps) {
     return (
-        <div className="flex flex-col gap-5 py-8 bg-white border border-gray-200 rounded-md border-second-text px-9">
+        <div className="flex flex-col gap-5 py-8 bg-white border rounded-md border-[#DEDEDE] px-9">
             <div className="flex text-secondary-1">
                 <Icon icon="ic:round-star" />
                 <Icon icon="ic:round-star" />
