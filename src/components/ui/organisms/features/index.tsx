@@ -27,14 +27,13 @@ const descriptions = {
 
 function Features() {
   return (
-    <div className="flex flex-col items-center w-full px-48 py-20">
+    <div className="flex flex-col items-center justify-between w-full px-5 py-20 md:px-14 lg:px-28 xl:px-48">
       <SectionTitle title="Practice Advice" description="Problems trying to resolve the conflict between
           the two major realms of Classical physics: Newtonian mechanics" />
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <FeatureCard title="Frauds or Mislead" description={descriptions.frauds} image="ic:twotone-balance" />
         <FeatureCard title="Bailes & Warrants" description={descriptions.frauds} image="fluent:gavel-20-regular" />
         <FeatureCard title="Federal Drug Crimes" description={descriptions.frauds} image="fluent:tasks-app-28-regular" />
-
       </div>
     </div>
   )

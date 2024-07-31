@@ -11,7 +11,7 @@ function FeatureCard({
     image
 }: FeatureCardProps) {
     return (
-        <div className="bg-[#F6E4D7] rounded-lg ">
+        <div className="bg-[#F6E4D7] rounded-lg w-full flex flex-col justify-between">
             <div className="flex items-center justify-between gap-4 px-12 py-7">
                 <div className="px-5 py-5 rounded-full bg-light-background">
                     <Icon icon={image} className="h-6 w-7 text-primary" />

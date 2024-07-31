@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast"
 import Navbar from "../../ui/organisms/navbar"
 
 function MainTemplate({
@@ -7,10 +8,12 @@ function MainTemplate({
 }) {
     return (
         <div className="w-full h-dvh bg-light-background">
+            <Toaster position="top-right" />
             <Navbar />
             <main className="w-full">
                 {children}
             </main>
+
         </div>
     )
 }
